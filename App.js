@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "./components/Header"
+import Meme from "./components/Meme"
 /**
  * Challenge: 
  * - Create a Meme component.
@@ -10,6 +11,7 @@ import Header from "./components/Header"
 export default function App() {
     return (
         <div>
+            <Meme />
             <Header />
         </div>
     )
